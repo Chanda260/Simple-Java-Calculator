@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 class Windows extends JFrame {
+
     double firstNumber;
     String operator;
 
@@ -48,7 +49,6 @@ class Windows extends JFrame {
         panel.add(num0); panel.add(clear);panel.add(equal);panel.add(add);
 
         container.add(panel);
-
 
         Font btnFont = new Font("Arial", Font.BOLD, 18);
         for (Component c : panel.getComponents()) {
